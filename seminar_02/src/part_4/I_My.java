@@ -1,0 +1,9 @@
+package part_4;
+
+public interface I_My {
+    int getUserID();
+
+    default int getAdminID() {
+        return 1;
+    }
+}
